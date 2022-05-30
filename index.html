@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- EXTERNAL STYLES -->
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- SCRIPT -->
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header>
+      <h1>Learn to code by <br> watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+    </header>
+
+    <main>
+      <div>
+        <button class="btn btn-dark" type="button">Try it free 7 days <span>then $20/mo. thereafter</span></button>
+        <form id="form" action="/" novalidate>
+          <label for="firstName"></label>
+          <input id="firstName" class="form-field" type="text" name="firstName" placeholder="First Name"><br>
+          <small id="firstNameError">First Name cannot be empty</small>
+  
+          <label for="lastName"></label>
+          <input id="lastName" class="form-field" type="text" name="lastName" placeholder="Last Name"><br>
+          <small id="lastNameError">Last Name cannot be empty</small>
+  
+          <label for="email"></label>
+          <input id="email" class="form-field" type="email" name="email" placeholder="Email Address"><br>
+          <small id="emailError">Looks like this is not an email</small>
+  
+          <label for="password"></label>
+          <input id="password" class="form-field" type="password" name="password" placeholder="Password"><br>
+          <small id="passwordError">Password cannot be empty</small>
+  
+          <label for="submit"></label>
+          <input id="submit" class="btn btn-light" type="submit" value="Claim Your Free Trial">
+  
+          <small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

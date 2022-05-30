@@ -1,0 +1,51 @@
+:root {
+  --clr-success: hsl(154, 59%, 51%);
+  --clr-success-hover: #77E2B3;
+  --clr-danger: hsl(0, 100%, 74%);
+  --clr-accent: hsl(248, 32%, 49%);
+  --clr-accent-hover: hsl(248, 53%, 60%);
+  --clr-primary: #fff;
+  --clr-secondary: hsl(249, 10%, 26%);
+  --clr-terms: hsl(246, 25%, 77%);
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+body {
+  background-image: url(../assets/images/bg-intro-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--clr-danger);
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+h1,
+p,
+.btn-dark,
+.btn-light {color: var(--clr-primary);}
+
+.form-field {color: var(--clr-secondary);}
+
+small span {color: var(--clr-danger);}
+
+footer a {color: var(--clr-accent);}
+
+small,
+.btn-dark span {color: var(--clr-terms);}
+
+h1,
+small span,
+.btn-dark {font-weight: 700;}
+
+.form-field,
+.btn-light {font-weight: 600;}
+
+p,
+small,
+.btn-dark span {font-weight: 500;}
