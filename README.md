@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro component with sign up form solution
+# Sign up form
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor]
 
